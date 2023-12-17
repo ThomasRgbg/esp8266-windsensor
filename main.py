@@ -60,7 +60,7 @@ wdt = Watchdog(interval = 120)
 #####
 
 relay_up = Relay(3, invert=False)
-relay_down = Relay(0, invert=False)
+relay_down = Relay(0, invert=True)
 
 #####
 # Wind Sensor
